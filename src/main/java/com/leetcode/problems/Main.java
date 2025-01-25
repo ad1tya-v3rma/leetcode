@@ -2,9 +2,11 @@ package com.leetcode.problems;
 
 import com.leetcode.problems.problems.*;
 
+import java.util.Arrays;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
-public class Main extends MinIndexSum {
+public class Main extends MergeSortedArray {
 
     public static void main(String[] args) {
 
@@ -30,10 +32,11 @@ public class Main extends MinIndexSum {
         //2,2,2,2
         System.out.println(main.minOperations(new int []{2,1,2,2,3,3}));*/
 
-        //main.merge(new int[]{1,2,3,0,0,0}, 3, new int[]{2,5,6}, 3 );
+        main.merge(new int[]{1,2,3,0,0,0}, 3, new int[]{2,5,6}, 3 );
 
-        System.out.println(main.findRestaurant(new String[]{"Shogun", "Tapioca Express", "Burger King", "KFC"},new String[]{"Piatti","The Grill at Torrey Pines","Hungry Hunter Steakhouse","Shogun"}));
-
+        //System.out.println(main.findRestaurant(new String[]{"Shogun", "Tapioca Express", "Burger King", "KFC"},new String[]{"Piatti","The Grill at Torrey Pines","Hungry Hunter Steakhouse","Shogun"}));
+        //System.out.println(main.countPairs(Arrays.asList(new Integer[]{-6,2,5,-2,-7,-1,3}), 2));
+        main.merge(new int[]{2,0},1, new int[]{1},1  );
     }
 
 
